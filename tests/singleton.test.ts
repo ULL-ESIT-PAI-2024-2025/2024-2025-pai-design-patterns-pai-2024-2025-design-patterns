@@ -1,4 +1,16 @@
-import { GameManager } from '../src/Singleton/game-manager';
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas 2024-2025
+ *
+ * @author Eric Ríos Hamilton
+ * @since Mar 09 2025
+ * @desc Test suite for the GameManager singleton class.
+ *
+ */
+
+import { GameManager } from '../src/singleton/game-manager';
 import { describe, it, expect } from '@jest/globals';
 
 describe('GameManager Singleton', () => {
