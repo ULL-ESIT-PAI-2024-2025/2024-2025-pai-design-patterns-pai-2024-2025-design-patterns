@@ -9,6 +9,7 @@
  * @desc EnemyHelmetDecorator class is a decorator that adds a helmet
  * to an enemy.
  * 
+ * This class is an example of usage of the `Decorator Pattern`.
  */
 
 import { EnemyDecorator } from "./EnemyDecorator";

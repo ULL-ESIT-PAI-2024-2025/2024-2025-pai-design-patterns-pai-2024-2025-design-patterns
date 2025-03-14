@@ -9,6 +9,7 @@
  * @desc EnemyDecorator abstract class is the base class for all 
  *  decorators that modifies an enemy.
  * 
+ * This class is an example of usage of the `Decorator Pattern`.
  */
 
 import { Enemy } from "../enemy/Enemy";

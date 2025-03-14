@@ -9,11 +9,10 @@
  * @desc EnemyChestplatetDecorator class is a decorator that adds a chestplate
  * to an enemy.
  * 
+ * This class is an example of usage of the `Decorator Pattern`.
  */
 
 import { EnemyDecorator } from "./EnemyDecorator";
-
-
 
 export class EnemyChestplateDecorator extends EnemyDecorator {
   /**
