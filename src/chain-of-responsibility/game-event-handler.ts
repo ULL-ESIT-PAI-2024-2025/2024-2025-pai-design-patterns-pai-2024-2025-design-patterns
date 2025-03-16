@@ -56,8 +56,8 @@ abstract class BaseHandler implements GameEventHandler {
  */
 class AttackHandler extends BaseHandler {
   handle(event: string): void {
-    if (event === "attack") {
-      console.log("Player attacks the enemy!");
+    if (event === 'attack') {
+      console.log('Player attacks the enemy!');
     } else {
       super.handle(event);
     }
@@ -69,8 +69,8 @@ class AttackHandler extends BaseHandler {
  */
 class DefenseHandler extends BaseHandler {
   handle(event: string): void {
-    if (event === "defend") {
-      console.log("Player blocks the attack!");
+    if (event === 'defend') {
+      console.log('Player blocks the attack!');
     } else {
       super.handle(event);
     }
@@ -82,8 +82,8 @@ class DefenseHandler extends BaseHandler {
  */
 class HealHandler extends BaseHandler {
   handle(event: string): void {
-    if (event === "heal") {
-      console.log("Player uses a potion to restore health!");
+    if (event === 'heal') {
+      console.log('Player uses a potion to restore health!');
     } else {
       super.handle(event);
     }
@@ -99,7 +99,7 @@ const healHandler = new HealHandler();
 attackHandler.setNextHandler(defenseHandler).setNextHandler(healHandler);
 
 // Testing the chain with different events
-attackHandler.handle("attack"); // Output: Player attacks the enemy!
-attackHandler.handle("defend"); // Output: Player blocks the attack!
-attackHandler.handle("heal");   // Output: Player uses a potion to restore health!
-attackHandler.handle("jump");   // Output: No handler found for event: jump
+attackHandler.handle('attack'); // Output: Player attacks the enemy!
+attackHandler.handle('defend'); // Output: Player blocks the attack!
+attackHandler.handle('heal');   // Output: Player uses a potion to restore health!
+attackHandler.handle('jump');   // Output: No handler found for event: jump
