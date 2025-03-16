@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2024-2025
  *
- * @author Roberto Giménez Fuentes
+ * @author Darío Fajardo, Roberto Giménez Fuentes, Eric Ríos Hamilton
  * @since Mar 10 2025
  * @desc EnemyChestplatetDecorator class is a decorator that adds a chestplate
  * to an enemy.
@@ -12,7 +12,9 @@
  * This class is an example of usage of the `Decorator Pattern`.
  */
 
+import { ZombieEnemy } from "../enemy/ZombieEnemy";
 import { EnemyDecorator } from "./EnemyDecorator";
+import { EnemyHelmetDecorator } from "./EnemyHelmetDecorator";
 
 export class EnemyChestplateDecorator extends EnemyDecorator {
   /**
@@ -26,3 +28,10 @@ export class EnemyChestplateDecorator extends EnemyDecorator {
   }
 
 }
+
+let zombie = new ZombieEnemy();
+zombie = new EnemyChestplateDecorator(zombie);
+console.log(zombie.receiveDamage(50)); // 50 - 10 = 40
+zombie = new EnemyHelmetDecorator(zombie);
+console.log(zombie.receiveDamage(50)); // 50 - 10 - 5 = 35
+console.log(zombie.name()); // Zombie

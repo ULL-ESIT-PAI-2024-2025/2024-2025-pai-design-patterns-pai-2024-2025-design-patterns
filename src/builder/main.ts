@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2024-2025
  *
- * @author Roberto Giménez Fuentes
+ * @author Darío Fajardo, Roberto Giménez Fuentes, Eric Ríos Hamilton
  * @since Mar 10 2025
  * @desc Main program to test the HouseBuilder.
  */
@@ -22,7 +22,7 @@ function main() {
   console.log(JSON.stringify(bigGarageHouse.description(), null, 2));
 
   const luxuryBigHouse = new LuxuryHouseDirector(new BigHouseBuilder()).build();
-  console.log(JSON.stringify(luxuryBigHouse.description(), null, 2));
+  console.log(JSON.stringify(luxuryBigHouse.description(), null, 2));z
 
 }
 

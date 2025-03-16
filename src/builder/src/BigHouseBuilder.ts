@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2024-2025
  *
- * @author Roberto Giménez Fuentes
+ * @author Darío Fajardo, Roberto Giménez Fuentes, Eric Ríos Hamilton
  * @since Mar 11 2025
  * @desc BigHouseBuilder class is a builder that builds a big house.
  *

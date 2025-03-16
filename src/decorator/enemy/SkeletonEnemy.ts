@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2024-2025
  *
- * @author Roberto Giménez Fuentes
+ * @author Darío Fajardo, Roberto Giménez Fuentes, Eric Ríos Hamilton
  * @since Mar 10 2025
  * @desc SkeletonEnemy is a concrete implementation of an Enemy.
  * 

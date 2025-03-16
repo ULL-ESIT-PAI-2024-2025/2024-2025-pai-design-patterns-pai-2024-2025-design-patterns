@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2024-2025
  *
- * @author Roberto Giménez Fuentes
+ * @author Darío Fajardo, Roberto Giménez Fuentes, Eric Ríos Hamilton
  * @since Mar 11 2025
  * @desc LuxuryHouseDirector class is a director that builds a luxury houses.
  * A luxury house is a house that has Garage, Garden and Statues
